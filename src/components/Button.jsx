@@ -5,11 +5,11 @@ const Button = ({ label, iconURL }) => {
     hover:translate-x-2 hover:text-coral-red text-white-400 mt-10" 
     >
         {label}
-        <img
+        {iconURL &&<img
             src={iconURL}
             alt="arrow right icon"
             className="ml-2 rounded-full w-5 h-5 transition duration-500 hover:translate-x-3 hover:border-coral-red border border-transparent"
-        />
+        />}
     </button>
   )
 }

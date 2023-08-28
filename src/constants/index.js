@@ -33,40 +33,44 @@ export const products = [
     {
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
-        price: "$200.20",
+        price: "199€",
+        rate: "4.2",
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
-        price: "$210.20",
+        price: "210€",
+        rate: "4.5",
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
-        price: "$220.20",
+        price: "220€",
+        rate: "4.7",
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
-        price: "$230.20",
+        price: "230€",
+        rate: "4.8",
     },
 ];
 
 export const services = [
     {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "Aucun frais d'expédition",
+        subtext: "Achetez sans frais supplémentaires grâce à notre service d'expédition gratuit."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Paiement sécurisé",
+        subtext: "Nos options de paiement sont sécurisées."
     },
     {
         imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Besoin d'aide ?",
+        subtext: "Notre équipe dévouée est là pour répondre à la moindre de vos questions."
     },
 ];
 

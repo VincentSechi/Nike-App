@@ -9,7 +9,7 @@ const Nav = () => {
     const [toggle,setToggle] = useState(false);
 
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-5 sticky top-0 bg-white z-10 w-full z-1">
         <nav className="flex justify-between items-center max-container"> 
             <a href="/">
                 <img
