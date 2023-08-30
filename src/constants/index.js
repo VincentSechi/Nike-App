@@ -77,22 +77,22 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        customerName: 'Vincent Sechi',
+        rating: 4.4,
+        feedback: "L'attention portée aux détails et la qualité du produit ont dépassé mes attentes. Hautement recommandé !"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        customerName: 'Laura Demongeot',
+        rating: 4.6,
+        feedback: "Je suis très satisfaite de mon achat et de la qualité de service de Nike."
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Produits",
         links: [
             { name: "Air Force 1", link: "/" },
             { name: "Air Max 1", link: "/" },
@@ -103,20 +103,19 @@ export const footerLinks = [
         ],
     },
     {
-        title: "Help",
+        title: "Aide",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "A propos", link: "/" },
+            { name: "FAQ", link: "/" },
+            { name: "Politique de confidentialité", link: "/" },
+            { name: "Méthode de paiement", link: "/" },
         ],
     },
     {
-        title: "Get in touch",
+        title: "Contact",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "sav@nike.com", link: "mailto:customer@nike.com" },
+            { name: "+xx xx xx xx xx", link: "tel:+92554862354" },
         ],
     },
 ];
